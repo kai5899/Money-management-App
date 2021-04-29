@@ -138,8 +138,6 @@ class AddTransactionPage extends StatelessWidget {
                                   databaseController.categories[index];
                               return Padding(
                                 child: ListTile(
-                                  horizontalTitleGap: 0,
-                                  minLeadingWidth: 30,
                                   leading: Container(
                                     width: 8,
                                     height: 40,
